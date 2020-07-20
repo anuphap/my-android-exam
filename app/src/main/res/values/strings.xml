@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AndroidExam</string>
+
+    <!-- Products -->
+    <string name="products_title">Products</string>
+    <string name="products_picking_label">Start picking your treats</string>
+    <string name="product_detail_title">Detail</string>
+    <string name="product_new">NEW</string>
+
+    <!-- Animations -->
+    <string name="product_image_transition">productImageTransition</string>
+    <string name="product_name_transition">productNameTransition</string>
+    <string name="product_price_transition">productPriceTransition</string>
+    <string name="product_new_transition">productNewTransition</string>
+
+    <!-- Network -->
+    <string name="network_connected">Connected</string>
+    <string name="error_connection_lost">Connection lost</string>
+
+    <!-- Error -->
+    <string name="error_not_found">Not found.</string>
+    <string name="error_something_went_wrong">Something went wrong.</string>
+    <string name="error_products_empty">Sorry, Not found products.</string>
+    <string name="reload">Reload</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@transition/default_window_fade</item>
+        <item name="android:windowExitTransition">@transition/default_window_fade</item>
+
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/product_transition
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/product_transition
+        </item>
+    </style>
+
+    <style name="BaseToolbarTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <!-- Text -->
+    <style name="AppText">
+        <item name="android:textColor">@color/textPrimaryColor</item>
+    </style>
+
+    <style name="AppText.SubHeader" parent="@style/AppText">
+        <item name="android:textColor">@color/textHeaderColor</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppText.Small" parent="@style/AppText">
+        <item name="android:textColor">@color/textPrimaryColor</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="AppText.Medium" parent="@style/AppText">
+        <item name="android:textColor">@color/textSecondaryColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppText.ProductListPrice" parent="@style/AppText">
+        <item name="android:textColor">@color/textHighlightColor</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppText.ProductNew" parent="@style/AppText">
+        <item name="android:textColor">@color/textHighlightColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppText.ProductDetailName" parent="@style/AppText">
+        <item name="android:textColor">@color/textPrimaryColor</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="AppText.ProductDetailPrice" parent="@style/AppText">
+        <item name="android:textColor">@color/textHighlightColor</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Button -->
+    <style name="AppButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>
